@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+@*google sign in data-client_id 用戶編號 xxxxxxxxxxxxxxxxxxxxxxxasdsadassxxxxx.apps.googleusercontent.com*@
+@*google sign in data-login_uri 登入後POST入口 https://localhost:7104/api/Login*@
+<div id="g_id_onload"
+     data-client_id="{用戶端編號}"
+     data-login_uri="{登入成功後轉倒頁面}">
+
+</div>
+<div class="g_id_signin"
+     data-type="standard"
+     data-size="large"
+     data-theme="outline"
+     data-text="sign_in_with"
+     data-shape="rectangular"
+     data-locale="zh-TW"
+     data-logo_alignment="left">
+</div>
